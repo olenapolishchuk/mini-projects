@@ -29,16 +29,30 @@ It covers key business insights and KPIs such as:
 ## 📦 Tech Stack
 
 - **Power BI Desktop**
-- **PostgreSQL** (optional, for advanced integration)
+- **PostgreSQL** 
 - CSV-based data model for easy portability
 
 ---
 
-## 🚀 How to Use
-1. Run `create_tables.sql` to define schema
-2. Run `insert_data.sql` to populate tables
-3. Use `queries_postgresql.sql` for analysis or visualization
-4. Import CSVs into Power BI or Tableau for dashboarding
+## 💾 Database Setup
+
+- **Database system:** PostgreSQL
+- **Schema & data setup:** provided via `create_tables.sql` and `insert_data.sql`
+- **SQL queries:** written in `queries_postgresql.sql` — optimized for PostgreSQL dialect
+   
+---
+
+
+### ▶️ How to Reproduce
+
+1. Install [PostgreSQL](https://www.postgresql.org/)
+2. Create a new database (e.g., `sales_db`)
+3. Run `create_tables.sql` to define schema
+4. Run `insert_data.sql` to populate data
+5. Use `queries_postgresql.sql` for analysis and KPIs
+6. Open `report.pbix` in Power BI to connect to the database and view dashboard
+
+> ⚠️ You may need to update the data source in Power BI to match your local PostgreSQL connection.
 
 ---
 
