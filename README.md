@@ -1,13 +1,20 @@
-# mini-projects
-This repository collects several short data analytics projects covering topics such as dashboards, A/B testing, automation, and reporting.  
+# Mini Data Analytics Projects
+
+A collection of lightweight data analytics projects demonstrating real-world use of Python, SQL, and Excel. Each project includes a clear objective, code/notebooks, and a brief report or visualization.
+
 ## 📂 Projects Included
 
-- `sales-dashboard/` — Python-based exploratory dashboard for sales trends
-- `sales-bd/` — SQL + BI reporting pipeline with schema, queries, and dashboards
-- `ab-test-analysis/` — Realistic A/B testing simulation and evaluation
-- `hr_automation/` — Automated HR reporting with Python and Excel
-- `operations-kpi-dashboard/` — Excel-only operations analytics dashboard
-- `customer-churn-prediction/` — Machine learning pipeline (Logistic Regression + Random Forest) to classify customer churn, with full EDA, feature engineering, and reporting  
+- `sales-dashboard/` — Dashboard with Python, Pandas & Matplotlib for analyzing sales trends  
+- `sales-bd/` — SQL BI reporting pipeline: schema, queries, and dashboards  
+- `ab-test-analysis/` — A/B test simulation with hypothesis validation in Python  
+- `hr-automation/` — Automatic HR reporting using Python and Excel  
+- `operations-kpi-dashboard/` — KPI dashboard built in Excel  
+- `customer-churn-prediction/` — Churn prediction pipeline using Logistic Regression & Random Forest; includes feature engineering and reporting
 
+## 🛠️ Technologies
 
-Each folder contains its own README and notebook or Excel report.
+Python | Pandas | SQL | Excel | Jupyter Notebook | Matplotlib | Scikit‑learn
+
+## ⚖️ License
+
+MIT — see [LICENSE](./LICENSE)
